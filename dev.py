@@ -1,7 +1,7 @@
 #x=5
 #y=3.14
 #name="Semma"
-
+from itertools import count
 
 #print(x)
 #print(y)
@@ -37,4 +37,35 @@
 #else:
 #    print("The temperature is less than 10")
 
+#fruits =["mango", "cherry", "apple"]
 
+#for fruit in fruits :
+#    print(fruit)
+
+#number=int(input("Enter a no. "))
+#for i in range(1,11):
+#    print(f"{number} x {i} = {number*i}")
+#  5
+
+#servers=["10.10.10.10" , "10.0.2.0"]
+# for s in servers:
+#    print("pinging:",s)
+
+#count=1
+
+#while count<10:
+#    print(count)
+#    count=count+1
+
+#status="down"
+#while status!="running":
+#    print("trying to restart service ..")
+ #   #systemctl restart httpd
+#    status="running"
+
+#numbers=[1,2,3,4,5,6]
+#for num in numbers:
+#    if num % 2 == 0:
+#        print(f"{num} is even")
+#    else:
+#        print(f"{num} is odd")
