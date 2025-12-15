@@ -1,7 +1,6 @@
 #x=5
 #y=3.14
 #name="Semma"
-from itertools import count
 
 #print(x)
 #print(y)
@@ -69,3 +68,30 @@ from itertools import count
 #        print(f"{num} is even")
 #    else:
 #        print(f"{num} is odd")
+
+#fruits = ["Apple", "Cherry", "Grapes"]
+#print(fruits)
+#fruits.append("Orange")
+#fruits.remove("Cherry")
+#print(fruits)
+#fruits.insert(1, "Mango")
+#print(fruits)
+
+#colors=("red","blue","green")
+#print(colors)
+#print(len(colors))
+#more_colors=("yellow","purple")
+#all_colors=colors+more_colors
+#print(all_colors)
+#port(80,443)
+
+#sports={"Soccer","Basketball","Tennis"}
+#print(sports)
+#sports.add("Cricket")
+#sports.remove("Soccer")
+#print(sports)
+
+#capital={"India":"New Delhi","France":"Paris"}
+#print(capital["France"])
+#capital["Germany"]="Berlin"
+#print(capital["Germany"])
