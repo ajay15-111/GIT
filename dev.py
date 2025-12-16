@@ -95,3 +95,28 @@
 #print(capital["France"])
 #capital["Germany"]="Berlin"
 #print(capital["Germany"])
+
+
+#def greet(name):
+#    print(f"Namaste..{name}!! Welcome to the python session")
+
+#greet("Seema")
+#greet("Amit")
+#greet("Pooja")
+
+#def add(a,b):
+#    print(f"The sum of {a} and {b} = {a+b}")
+
+#result = add(10,5)
+#print(result)
+
+
+#x=5
+#def my_function():
+#    global x
+#    x=10
+#    print(x)
+#    print(x)
+
+#my_function()
+#print(x)cd
