@@ -149,11 +149,11 @@ from math import factorial
 #items = os.listdir()
 #print("Itema in this folder:",items)
 
-import numpy as np
-no=np.array([10,20,5,7])
-print("Max: ", np.max(no))
-print("Min: ", np.min(no))
-print("Sum: ", np.sum(no))
+#import numpy as np
+#no=np.array([10,20,5,7])
+#print("Max: ", np.max(no))
+#print("Min: ", np.min(no))
+#print("Sum: ", np.sum(no))
 
-import pandas
-import matplotlib.pyplot as plt
+#import pandas
+#import matplotlib.pyplot as plt
