@@ -1,6 +1,9 @@
 #x=5
 #y=3.14
 #name="Semma"
+import datetime
+import math
+from math import factorial
 
 #print(x)
 #print(y)
@@ -120,3 +123,37 @@
 
 #my_function()
 #print(x)
+
+
+#result= math.sqrt(16)
+#print(result)
+
+#factorial_value= math.factorial(5)
+#print(f"Factorial of 5 is {factorial_value}")
+
+#current_time = datetime.datetime.now()
+#print(current_time)
+
+#today = datetime.date.today()
+#print(today)
+
+#time= datetime.datetime.now().time()
+#print(time)
+
+
+#import os
+#cws= os.getcwd()
+#print("Current Working Directory:",cws)
+
+
+#items = os.listdir()
+#print("Itema in this folder:",items)
+
+import numpy as np
+no=np.array([10,20,5,7])
+print("Max: ", np.max(no))
+print("Min: ", np.min(no))
+print("Sum: ", np.sum(no))
+
+import pandas
+import matplotlib.pyplot as plt
