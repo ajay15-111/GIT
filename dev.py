@@ -1,9 +1,9 @@
 #x=5
 #y=3.14
 #name="Semma"
-import datetime
-import math
-from math import factorial
+#import datetime
+#import math
+#from math import factorial
 
 #print(x)
 #print(y)
