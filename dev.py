@@ -4,6 +4,7 @@
 #import datetime
 #import math
 #from math import factorial
+from sys import excepthook
 
 #print(x)
 #print(y)
@@ -157,3 +158,59 @@
 
 #import pandas
 #import matplotlib.pyplot as plt
+
+
+#file= open("use","r")
+#content = file.read()
+#print(content)
+#file.close()
+
+#file= open("use","r")
+#for content in file:
+#    print(content)
+#file.close()
+
+
+#file=open("example.txt","a")
+#file.write("\nThis is new file")
+#file.write("\nThis is forth line")
+#file.write("\nThis is fifth line")
+#file.write("\nThis is sixth line")
+#file.close()
+
+#file=open("test.txt","w")
+#print("Enter text (type 'exit' to stop)")
+#while True:
+#    line = input()
+#    if line.lower() == "exit":
+#        break
+#    file.write(line+"\n")
+#print("user input  save to file")
+
+#import csv
+
+#file=open("users.csv","r")
+#content=csv.reader(file)
+#for row in content:
+#    print(row)
+
+#import csv
+#file=open("users.csv","r")
+#content=csv.DictReader(file)
+#for row in content:
+#    print(row)
+
+#import csv
+#file=open("employees.csv","w",newline='')
+#writer = csv.writer(file)
+#writer.writerow(["namr","row","team"])
+#writer.writerow(["Abhishek","Devops","Cloud"])
+
+
+# try:
+
+
+#x=int(input("Enter no:"))
+#print(x/10)
+#except:
+ #    print("can not divide by 0")
